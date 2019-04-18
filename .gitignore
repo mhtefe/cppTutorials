@@ -1,0 +1,23 @@
+#generated except source/configuration files
+*.exe
+*.ilk
+*.lib
+*.dll
+*.pdb
+*.idb
+*.obj
+*.pch
+*.log
+*.tlog
+*.lastbuildstate
+*.opendb
+*.db
+*.suo
+*.ipch
+*.enc
+
+#folders
+imageProcessing/.vs
+imageProcessing/Release
+imageProcessing/Debug
+imageProcessing/x64
