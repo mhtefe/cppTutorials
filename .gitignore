@@ -12,12 +12,16 @@
 *.lastbuildstate
 *.opendb
 *.db
+*.db-shm
+*.db-wal
 *.suo
 *.ipch
 *.enc
+*.csv
 
 #folders
-imageProcessing/.vs
-imageProcessing/Release
-imageProcessing/Debug
-imageProcessing/x64
+.vs
+cppTutorials/.vs
+cppTutorials/Release
+cppTutorials/Debug
+cppTutorials/x64

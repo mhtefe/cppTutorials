@@ -19,18 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="testCSV.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="csv.h" />
+    <ClCompile Include="OpenMP_HelloWorld.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{CD278790-FCFB-4E20-8004-52CE64AFBA78}</ProjectGuid>
+    <ProjectGuid>{E29F287E-898F-458C-83B1-F3631452041A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>imageProcessing</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
-    <ProjectName>0_CSVTest</ProjectName>
+    <ProjectName>8_OpenMP_HelloWorld</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -113,14 +110,12 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>
-      </AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\OSGeo4W64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>
-      </AdditionalDependencies>
+      <AdditionalDependencies>C:\OSGeo4W64\lib\sqlite3_i.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -150,11 +145,12 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>$(MYGVK_EX)\opencv-3.4.0\srcs;$(MYGVK_EX)\opencv-3.4.0\srcs\opencv2;$(MYGVK_EX)\opencv-3.4.0\include\opencv2;$(MYGVK_EX)\opencv-3.4.0\include\opencv;$(MYGVK_EX)\opencv-3.4.0\include;$(MYGVK_EX)\opencv-3.4.0\modules;$(MYGVK_EX)\opencv-3.4.0\modules\core\include;$(MYGVK_EX)\opencv-3.4.0\modules\imgproc\include;$(MYGVK_EX)\opencv-3.4.0\modules\videoio\include;$(MYGVK_EX)\opencv-3.4.0\modules\imgcodecs\include;$(MYGVK_EX)\opencv-3.4.0\modules\highgui\include;$(MYGVK_EX)\opencv-3.4.0\modules\features2d\include;$(MYGVK_EX)\opencv-3.4.0\modules\ml\include;$(MYGVK_EX)\opencv-3.4.0\modules\flann\include</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
