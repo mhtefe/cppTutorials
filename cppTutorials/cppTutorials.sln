@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7_matlabCall", "7_matlabCal
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8_OpenMP_HelloWorld", "8_OpenMP_HelloWorld\8_OpenMP_HelloWorld.vcxproj", "{E29F287E-898F-458C-83B1-F3631452041A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9_OpenMP_KeyWords", "9_OpenMP_KeyWords\9_OpenMP_KeyWords.vcxproj", "{145774FD-32BA-4CD1-9CF5-6BCFF1C22B5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{E29F287E-898F-458C-83B1-F3631452041A}.Release|x64.Build.0 = Release|x64
 		{E29F287E-898F-458C-83B1-F3631452041A}.Release|x86.ActiveCfg = Release|Win32
 		{E29F287E-898F-458C-83B1-F3631452041A}.Release|x86.Build.0 = Release|Win32
+		{145774FD-32BA-4CD1-9CF5-6BCFF1C22B5D}.Debug|x64.ActiveCfg = Debug|x64
+		{145774FD-32BA-4CD1-9CF5-6BCFF1C22B5D}.Debug|x64.Build.0 = Debug|x64
+		{145774FD-32BA-4CD1-9CF5-6BCFF1C22B5D}.Debug|x86.ActiveCfg = Debug|Win32
+		{145774FD-32BA-4CD1-9CF5-6BCFF1C22B5D}.Debug|x86.Build.0 = Debug|Win32
+		{145774FD-32BA-4CD1-9CF5-6BCFF1C22B5D}.Release|x64.ActiveCfg = Release|x64
+		{145774FD-32BA-4CD1-9CF5-6BCFF1C22B5D}.Release|x64.Build.0 = Release|x64
+		{145774FD-32BA-4CD1-9CF5-6BCFF1C22B5D}.Release|x86.ActiveCfg = Release|Win32
+		{145774FD-32BA-4CD1-9CF5-6BCFF1C22B5D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
